@@ -1,0 +1,87 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+form input, form select, form button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+form input, form select {
+    width: 160px;
+}
+
+form button {
+    background-color: #1e88e5;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1565c0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #222;
+}
+
+tr:nth-child(even) {
+    background-color: #1b1b1b;
+}
+
+tr:nth-child(odd) {
+    background-color: #141414;
+}
+
+button[type="submit"] {
+    background-color: #e53935;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #b71c1c;
+}
